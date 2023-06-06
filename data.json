@@ -1,0 +1,25 @@
+{
+  "Cart": [
+    {
+      "Name": "Lenovo Yoga 7 Evo 12.Nesil Core i5",
+      "Image": "default.png",
+      "price": "29.999"
+    },
+    {
+      "Name": "Asus Zenbook 13 Oled Ux325 Evo 11.Nesil Core i5",
+      "Image": "default.png",
+      "price": "22.523"
+    },
+    {
+      "Name": "MacBook Air MGN93TU/A M1 8Gb-256Gb Ssd-Retina-13.3inc-Silver",
+      "Image": "default.png",
+      "price": "20.899"
+    },
+    {
+      "Name": "MacBook Pro MPHE3TU/A M2 Pro 16Gb-512Gb Ssd-Liquid Retina-14inc-Uzay Grisi",
+      "Image": "default.png",
+      "price": "53.999"
+    }
+  ],
+  "Saved": []
+}

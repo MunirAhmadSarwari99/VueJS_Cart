@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue JS</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="vue2.js"></script>
+</head>
+<body>
+<div id="app" class="container pt-5">
+    <h4 v-if="isloading">Loading</h4>
+    <div v-if="! isloading">
+        <vue-cart :cart="cart" title="Cart" type="cart" v-on:itemchange="handleItemChange"></vue-cart>
+        <hr/>
+        <vue-cart :cart="saved" title="Saved For Later" type="saved" v-on:itemchange="handleItemChange"></vue-cart>
+    </div>
+</div>
+
+<script src="bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
